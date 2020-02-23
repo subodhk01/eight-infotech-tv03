@@ -41,6 +41,7 @@ html{
 }
 .third-container {
     background-color: burlywood;
+    min-height: 100vh;
 }
 .fourth-container {
     background-color: teal;
@@ -129,4 +130,28 @@ header {
 .tws-item img {
     height: 130px;
     background-color: white;
+}
+
+.why-item-container {
+    padding: 30px;
+}
+.why-item img {
+    width: 100%;
+    border-radius: 10px;
+}
+.why-item {
+    position: relative;
+}
+.why-item-content {
+    background: linear-gradient(45deg , rgba(85, 74, 45, 0.842), rgba(85, 55, 7, 0.822));
+    position: absolute;
+    padding: 30px;
+    text-align: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    color: white;
+    pointer-events: none;
+    font-size: 1.3rem;
 }

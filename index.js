@@ -1,4 +1,4 @@
-var http = require('http');
+/* var http = require('http');
 var fs = require('fs');
 
 http.createServer(function(req, res) {
@@ -7,4 +7,18 @@ http.createServer(function(req, res) {
         res.write(data);
         res.end();
     });
-}).listen(8080);
+}).listen(8080); */
+
+$('#why-item-12').fadeOut();
+
+
+
+$('#why-item-11').mouseover(function(){
+    $('#why-item-12').fadeIn();
+}).mouseout(function(){
+    $('#why-item-12').fadeOut();
+});
+
+
+
+
